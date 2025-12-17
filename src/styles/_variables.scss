@@ -1,0 +1,22 @@
+// Cores da Marca (Baseado no PDF)
+$primary-color: #4f46e5;       // Roxo/Azul do botão "Entrar" e "Nova Entrada"
+$primary-hover: #4338ca;
+$sidebar-bg: #1e293b;          // Fundo escuro do menu lateral
+$sidebar-text: #94a3b8;        // Texto cinza do menu
+$sidebar-text-active: #ffffff; // Texto branco quando ativo
+
+// Cores de Fundo e Estrutura
+$bg-body: #f3f4f6;             // Cinza bem claro do fundo da tela
+$bg-card: #ffffff;             // Branco dos cards e tabelas
+$border-color: #e2e8f0;        // Bordas suaves
+
+// Cores de Status (Badges)
+$status-success-bg: #dcfce7;
+$status-success-text: #166534;
+$status-warning-bg: #fef9c3;
+$status-warning-text: #854d0e;
+$status-danger-bg: #fee2e2;
+$status-danger-text: #991b1b;
+
+// Tipografia
+$font-family-base: 'Inter', sans-serif; // importar a fonte Inter do Google Fonts

@@ -1,0 +1,7 @@
+// Importe as variáveis para garantir que o reset use a cor de fundo correta
+@import 'styles/variables';
+
+:host {
+  display: block;
+  height: 100vh;
+}

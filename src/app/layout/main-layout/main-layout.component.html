@@ -1,0 +1,41 @@
+<div class="layout-wrapper">
+  
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">
+      <i-tabler name="box" class="logo-icon"></i-tabler>
+      <h2>StockFlow</h2>
+    </div>
+
+    <nav class="menu">
+      <a routerLink="/estoque" routerLinkActive="active" class="menu-item">
+        <i-tabler name="box" class="icon"></i-tabler> Estoque
+      </a>
+      <!-- Adicione os outros links aqui -->
+    </nav>
+    
+    <div class="user-profile">
+      <div class="avatar">CS</div>
+      <div class="info">
+        <p class="name">Carlos Silva</p>
+        <p class="role">Gerente de Loja</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="content-area">
+    <header class="top-bar">
+      <h1>Gerenciar Estoque</h1> <!-- Idealmente isso seria dinâmico -->
+      <button mat-flat-button color="primary" class="btn-custom">
+        <i-tabler name="plus" style="margin-right: 8px"></i-tabler> 
+        Adicionar Produto
+      </button>
+    </header>
+
+    <div class="scrollable-content">
+      <!-- AQUI carregam as páginas de Estoque, Produtos, etc -->
+      <router-outlet></router-outlet> 
+    </div>
+  </main>
+</div>
